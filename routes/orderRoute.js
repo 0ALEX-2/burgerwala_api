@@ -20,4 +20,4 @@ router.get("/order/:id", isAuthenticated, getOrderDetails);
 router.get("/admin/orders", isAuthenticated, authorizeAdmin, getAdminOrders);
 router.get("/admin/order/:id", isAuthenticated, authorizeAdmin, processOrder);
 
-export default router;
+export default router;   
